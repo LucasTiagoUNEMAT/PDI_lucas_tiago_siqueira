@@ -99,11 +99,4 @@ para garantir funcionamento em qualquer ambiente limpo.
 - O código está organizado em um único Jupyter Notebook, com células de
   texto em **Markdown** separando e explicando cada exercício, e comentários
   no código.
-- O notebook é gerado a partir do script [`lista_1/build_notebook.py`](lista_1/build_notebook.py),
-  que facilita a manutenção do conteúdo sem precisar editar o JSON `.ipynb`
-  diretamente. Para regenerar o notebook após qualquer alteração no script:
 
-  ```bash
-  cd lista_1
-  python build_notebook.py
-  ```
